@@ -26,13 +26,15 @@ graph LR
     A[🚀 Chapter 01<br/>Basics] --> B[📘 Chapter 02<br/>JS Syntax]
     B --> C[🏷️ Chapter 03<br/>Identifiers]
     C --> D[📦 Chapter 04<br/>JavaScript Concepts]
-    D --> E[⚡ Chapter 05<br/>Coming Soon...]
+    D --> E[⚡ Chapter 05<br/>Literals]
+    E --> F[🔢 Chapter 06<br/>Operators]
 
     style A fill:#FF6B6B,color:#fff
     style B fill:#4ECDC4,color:#fff
     style C fill:#45B7D1,color:#fff
     style D fill:#96CEB4,color:#fff
     style E fill:#FFEAA7,color:#333
+    style F fill:#DDA0DD,color:#333
 ```
 
 ---
@@ -45,6 +47,8 @@ graph LR
 | **Chapter 02** | `chapter_02_JavaScript_Basics` | Core JS syntax — `var`, reassignment, and logging |
 | **Chapter 03** | `chapter_03_Identifierand _literal` | Naming rules, conventions, comments 💬, and VS Code shortcuts ⌨️ |
 | **Chapter 04** | `chapter_04_Javascript_Concepts` | Functions, `var`/`let`/`const` scope, and variable declarations 🧠 |
+| **Chapter 05** | `chapter_05_Literal` | Literals — numbers, strings, booleans, null, undefined, and template literals 📜 |
+| **Chapter 06** | `chapter_06_Operator` | Operators — arithmetic, assignment, comparison, logical, and string concatenation 🔢 |
 
 ---
 
@@ -79,6 +83,29 @@ node chapter_04_Javascript_Concepts/11_let_explained.js
 node chapter_04_Javascript_Concepts/12_const_explained.js
 node chapter_04_Javascript_Concepts/13_var_functionscope.js
 node chapter_04_Javascript_Concepts/14_let_scope.js
+
+# 📜 Chapter 05 — Literals
+node chapter_05_Literal/22_Literal.js
+node chapter_05_Literal/23_null_undefined.js
+node chapter_05_Literal/24_null.js
+node chapter_05_Literal/25_Literal_All.js
+node chapter_05_Literal/26_Literal_Number_all.js
+node chapter_05_Literal/27_String.js
+node chapter_05_Literal/28_Template_Literal.js
+node chapter_05_Literal/29_Backtick_single_double.js
+
+# 🔢 Chapter 06 — Operators
+node chapter_06_Operator/30_Assignment_Operator.js
+node chapter_06_Operator/31_Arithmetic_Operator.js
+node chapter_06_Operator/32_modulus_Operator.js
+node chapter_06_Operator/33_Exponential_OP.js
+node chapter_06_Operator/34_compound_OP_IQ.js
+node chapter_06_Operator/35_Comparison_OP.js
+node chapter_06_Operator/36_Comparison_Strict_Loose_OP.js
+node chapter_06_Operator/37_IQ_loose_Strict.js
+node chapter_06_Operator/38_Confusing_Comprison.js
+node chapter_06_Operator/39_Logical_Op.js
+node chapter_06_Operator/40_String_Con_OP.js
 ```
 
 > 💡 **Pro Tip:** Use the VS Code shortcut cheat sheets in Chapter 03 to speed up your workflow!
@@ -274,6 +301,41 @@ graph TD
 
 ---
 
+### 📜 Chapter 05 — Literals
+> *"Literals are the raw values that power your code."* 📜
+
+| File | What You'll Learn |
+|:-----|:-----------------|
+| `22_Literal.js` | 🔤 String, number, boolean, and object literals |
+| `23_null_undefined.js` | ❓ Difference between `null` and `undefined` |
+| `24_null.js` | 🕳️ Working with `null` values |
+| `25_Literal_All.js` | 📖 Comprehensive overview of all literal types |
+| `26_Literal_Number_all.js` | 🔢 Number literals, decimals, and special numeric values |
+| `27_String.js` | 📝 String literals, escaping, and best practices |
+| `28_Template_Literal.js` | 🧵 Template literals (backticks) and interpolation |
+| `29_Backtick_single_double.js` | 🔄 Comparing single quotes, double quotes, and backticks |
+
+---
+
+### 🔢 Chapter 06 — Operators
+> *"Operators are the verbs of programming."* 🔢
+
+| File | What You'll Learn |
+|:-----|:-----------------|
+| `30_Assignment_Operator.js` | ⬅️ Assignment (`=`) and basic variable assignment |
+| `31_Arithmetic_Operator.js` | ➕➖✖️➗ Addition, subtraction, multiplication, division |
+| `32_modulus_Operator.js` | 🧮 Modulo (`%`) and remainder operations |
+| `33_Exponential_OP.js` | 🚀 Exponentiation (`**`) operator |
+| `34_compound_OP_IQ.js` | 🧩 Compound assignment operators (`+=`, `-=`, etc.) |
+| `35_Comparison_OP.js` | ⚖️ Comparison operators (`>`, `<`, `>=`, `<=`) |
+| `36_Comparison_Strict_Loose_OP.js` | 🔍 Strict (`===`) vs loose (`==`) equality |
+| `37_IQ_loose_Strict.js` | 🧠 Interview questions on equality comparisons |
+| `38_Confusing_Comprison.js` | 😵 Confusing comparisons and type coercion traps |
+| `39_Logical_Op.js` | 🔗 Logical operators (`&&`, `\|\|`, `!`) |
+| `40_String_Con_OP.js` | 🔗 String concatenation with `+` and template literals |
+
+---
+
 ## 📊 Topics Covered
 
 ```
@@ -282,6 +344,9 @@ graph TD
 ✅ Naming Conventions           ✅ Code Comments & Documentation
 ✅ VS Code Productivity         ✅ Best Practices & Tips
 ✅ Functions & Scope            ✅ var / let / const Differences
+✅ Literals & Data Types        ✅ Template Literals
+✅ Arithmetic Operators         ✅ Comparison & Logical Operators
+✅ Type Coercion & Equality     ✅ String Concatenation
 ```
 
 ---
@@ -298,6 +363,11 @@ By the end of these chapters, you will:
 - 🖥️ Verify and troubleshoot your development environment
 - 🎯 Define and invoke functions confidently
 - 📦 Master `var`, `let`, and `const` scope differences
+- 📜 Understand literals — strings, numbers, booleans, null, and undefined
+- 🧵 Use template literals for clean string interpolation
+- ➕ Apply arithmetic, assignment, and compound operators
+- ⚖️ Compare values with strict (`===`) and loose (`==`) equality
+- 🔗 Combine conditions with logical operators (`&&`, `||`, `!`)
 
 ---
 
