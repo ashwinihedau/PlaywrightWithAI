@@ -28,6 +28,12 @@ graph LR
     C --> D[📦 Chapter 04<br/>JavaScript Concepts]
     D --> E[⚡ Chapter 05<br/>Literals]
     E --> F[🔢 Chapter 06<br/>Operators]
+    F --> G[🌿 Chapter 07<br/>If / Else]
+    G --> H[🔀 Chapter 08<br/>Switch]
+    H --> I[⌨️ Chapter 09<br/>User Input]
+    I --> J[🔄 Chapter 10<br/>Loops]
+    J --> K[📋 Chapter 11<br/>Arrays]
+    K --> L[⚙️ Chapter 12<br/>Functions]
 
     style A fill:#FF6B6B,color:#fff
     style B fill:#4ECDC4,color:#fff
@@ -35,6 +41,12 @@ graph LR
     style D fill:#96CEB4,color:#fff
     style E fill:#FFEAA7,color:#333
     style F fill:#DDA0DD,color:#333
+    style G fill:#FF6B6B,color:#fff
+    style H fill:#4ECDC4,color:#fff
+    style I fill:#45B7D1,color:#fff
+    style J fill:#96CEB4,color:#fff
+    style K fill:#FFEAA7,color:#333
+    style L fill:#DDA0DD,color:#333
 ```
 
 ---
@@ -48,7 +60,13 @@ graph LR
 | **Chapter 03** | `chapter_03_Identifierand _literal` | Naming rules, conventions, comments 💬, and VS Code shortcuts ⌨️ |
 | **Chapter 04** | `chapter_04_Javascript_Concepts` | Functions, `var`/`let`/`const` scope, and variable declarations 🧠 |
 | **Chapter 05** | `chapter_05_Literal` | Literals — numbers, strings, booleans, null, undefined, and template literals 📜 |
-| **Chapter 06** | `chapter_06_Operator` | Operators — arithmetic, assignment, comparison, logical, and string concatenation 🔢 |
+| **Chapter 06** | `chapter_06_Operator` | Operators — arithmetic, assignment, comparison, logical, ternary, increment/decrement 🔢 |
+| **Chapter 07** | `chapter_07_If_else` | Conditional statements — `if`, `else if`, `else`, nested conditions, truthy/falsy 🌿 |
+| **Chapter 08** | `chapter_08_Switch_Statement` | Switch statements — `case`, `break`, `default`, grouped cases, real-world examples 🔀 |
+| **Chapter 09** | `chapter_09_UserInput_NeverUsed` | User input techniques — `prompt`, `readline`, and `prompt-sync` ⌨️ |
+| **Chapter 10** | `chapter_10_Loop` | Loops — `for`, `while`, `do...while`, nested loops, and interview questions 🔄 |
+| **Chapter 11** | `chapter_11_Arrays` | Arrays — creation, access, methods, searching, iteration, sorting, slicing 📋 |
+| **Chapter 12** | `chapter_12_Functions` | Functions — declarations, expressions, arrow functions, parameters, and return values ⚙️ |
 
 ---
 
@@ -106,6 +124,88 @@ node chapter_06_Operator/37_IQ_loose_Strict.js
 node chapter_06_Operator/38_Confusing_Comprison.js
 node chapter_06_Operator/39_Logical_Op.js
 node chapter_06_Operator/40_String_Con_OP.js
+node chapter_06_Operator/41_Ternary_OP.js
+node chapter_06_Operator/42_Tyoe_OP.js
+node chapter_06_Operator/43_Null_OP.js
+node chapter_06_Operator/44_Incre_Decre_OP.js
+node chapter_06_Operator/45_PostInscrement_OP.js
+node chapter_06_Operator/46_IQ_Increment_Op.js
+node chapter_06_Operator/47_Advance_IncDec.js
+
+# 🌿 Chapter 07 — If / Else
+node chapter_07_If_else/48_IF_Else.js
+node chapter_07_If_else/49_If_elseif_else.js
+node chapter_07_If_else/50_REAL_IF_ELSE.js
+node chapter_07_If_else/51_API_IF_ELSE.js
+node chapter_07_If_else/52_IQ_IF_ELSE.js
+node chapter_07_If_else/53_IF_ELSE_real.js
+node chapter_07_If_else/54_IQ.js
+node chapter_07_If_else/55_IE.js
+node chapter_07_If_else/56_IQ_EVEN_ODD.js
+node chapter_07_If_else/57_Grade_Calc.js
+node chapter_07_If_else/58_LEAP_YEAR.js
+node chapter_07_If_else/1_Assignment.js
+node chapter_07_If_else/2_Assignment.js
+node chapter_07_If_else/3_Assignment.js
+node chapter_07_If_else/4_Assignment.js
+node chapter_07_If_else/5_Assignment.js
+node chapter_07_If_else/6_Assignment.js
+node chapter_07_If_else/7_Assignment.js
+
+# 🔀 Chapter 08 — Switch Statement
+node chapter_08_Switch_Statement/59_Switch.js
+node chapter_08_Switch_Statement/60_No_break.js
+node chapter_08_Switch_Statement/61_Default.js
+node chapter_08_Switch_Statement/62_Real_Time_Example.js
+node chapter_08_Switch_Statement/63_Switch_Group.js
+node chapter_08_Switch_Statement/64_IQ.js
+node chapter_08_Switch_Statement/65_IQ2.js
+node chapter_08_Switch_Statement/66_IQ3.js
+node chapter_08_Switch_Statement/67_IQ4.js
+
+# ⌨️ Chapter 09 — User Input
+node chapter_09_UserInput_NeverUsed/68_User_Input.js
+node chapter_09_UserInput_NeverUsed/69.Node_readline.js
+node chapter_09_UserInput_NeverUsed/70_prompt_sync.js
+
+# 🔄 Chapter 10 — Loops
+node chapter_10_Loop/71_For_Loop.js
+node chapter_10_Loop/72_For_Loop.js
+node chapter_10_Loop/73_For_Loop2.js
+node chapter_10_Loop/74_For_Loop_IQ.js
+node chapter_10_Loop/75_While_Loop.js
+node chapter_10_Loop/76_Do_While_loop.js
+node chapter_10_Loop/77_Do_While_loop2.js
+node chapter_10_Loop/78_IQ.js
+node chapter_10_Loop/79_IQ.js
+node chapter_10_Loop/80_IQ.js
+node chapter_10_Loop/81_IQ.js
+
+# 📋 Chapter 11 — Arrays
+node chapter_11_Arrays/82_Arrays.js
+node chapter_11_Arrays/83_Arrays.js
+node chapter_11_Arrays/84_Access_Array.js
+node chapter_11_Arrays/85_Arrays_adding_Remove.js
+node chapter_11_Arrays/86_adding_Remove2.js
+node chapter_11_Arrays/87_Real_Example.js
+node chapter_11_Arrays/89_Searching.js
+node chapter_11_Arrays/90_Iterate.js
+node chapter_11_Arrays/91_Transform_Array.js
+node chapter_11_Arrays/92_Array_Sorting.js
+node chapter_11_Arrays/93_Array_Slicing.js
+node chapter_11_Arrays/94_Concat_Array.js
+node chapter_11_Arrays/95_Array_Checking.js
+
+# ⚙️ Chapter 12 — Functions
+node chapter_12_Functions/96_Functions.js
+node chapter_12_Functions/97_Type1_Fn_Basic_Functions.js
+node chapter_12_Functions/98_Type2_Fn_With_Param_No_Return.js
+node chapter_12_Functions/99_Type3_Fn_No_param_Return_type.js
+node chapter_12_Functions/100_Type4_Fn_With_Param_With_Return.js
+node chapter_12_Functions/101_Templte_literal.js
+node chapter_12_Functions/102_Fn_expression.js
+node chapter_12_Functions/103_Arrow_Fn.js
+node chapter_12_Functions/93_Arrow_Fn.js
 ```
 
 > 💡 **Pro Tip:** Use the VS Code shortcut cheat sheets in Chapter 03 to speed up your workflow!
@@ -333,6 +433,228 @@ graph TD
 | `38_Confusing_Comprison.js` | 😵 Confusing comparisons and type coercion traps |
 | `39_Logical_Op.js` | 🔗 Logical operators (`&&`, `\|\|`, `!`) |
 | `40_String_Con_OP.js` | 🔗 String concatenation with `+` and template literals |
+| `41_Ternary_OP.js` | ❓ Ternary (`?:`) and nested ternary operators |
+| `42_Tyoe_OP.js` | 🔍 `typeof` operator for type checking |
+| `43_Null_OP.js` | 🕳️ Nullish coalescing (`??`) and optional chaining |
+| `44_Incre_Decre_OP.js` | ⬆️⬇️ Increment (`++`) and decrement (`--`) operators |
+| `45_PostInscrement_OP.js` | 🔄 Post-increment vs pre-increment behavior |
+| `46_IQ_Increment_Op.js` | 🧠 Interview questions on increment operators |
+| `47_Advance_IncDec.js` | 🚀 Advanced increment/decrement expressions |
+
+---
+
+### 🌿 Chapter 07 — If / Else
+> *"Decisions are the hinges of destiny."* 🌿
+
+| File | What You'll Learn |
+|:-----|:-----------------|
+| `48_IF_Else.js` | 🎯 Basic `if` and `else` syntax with a voting-age example |
+| `49_If_elseif_else.js` | 📊 Using `else if` for multiple conditions — grade calculator |
+| `50_REAL_IF_ELSE.js` | 🏗️ Nested `if` statements — login and role-based access control |
+| `51_API_IF_ELSE.js` | 🌐 Handling API status codes with `if-else if-else` |
+| `52_IQ_IF_ELSE.js` | 🧠 Truthy and falsy values in JavaScript conditions |
+| `53_IF_ELSE_real.js` | 🔐 Real-world example — username, password, and account lock check |
+| `54_IQ.js` | 🧩 Single-statement `if` without curly braces |
+| `55_IE.js` | ⚠️ Understanding that `else` cannot exist without a matching `if` |
+| `56_IQ_EVEN_ODD.js` | 🔢 Using the modulus operator with `if-else` to check even/odd |
+| `57_Grade_Calc.js` | 🎓 Another grade calculator using `if-else if` chains |
+| `58_LEAP_YEAR.js` | 📅 Leap year logic using logical (`&&`, `\|\|`) and comparison operators |
+
+#### 🌿 If / Else Decision Tree
+
+```mermaid
+graph TD
+    A[🤔 Need to make<br/>a decision?] --> B{Single condition?}
+    B -->|Yes| C[Use if<br/>if condition]
+    B -->|No| D{Multiple<br/>conditions?}
+    D -->|Yes| E[Use if-else if-else<br/>if / else if / else]
+    D -->|No| F{Nested<br/>decision?}
+    F -->|Yes| G[Use nested if<br/>if inside if]
+    F -->|No| H[No condition needed]
+
+    style A fill:#FF6B6B,color:#fff
+    style B fill:#4ECDC4,color:#fff
+    style C fill:#45B7D1,color:#fff
+    style D fill:#96CEB4,color:#fff
+    style E fill:#FFEAA7,color:#333
+    style F fill:#DDA0DD,color:#333
+    style G fill:#98FB98,color:#333
+    style H fill:#FFB6C1,color:#333
+```
+
+#### 📋 Truthy vs Falsy Cheat Sheet
+
+| 🟢 Truthy Values | 🔴 Falsy Values |
+|:-----------------|:----------------|
+| Non-zero numbers (`1`, `-5`, `3.14`) | `0` |
+| Non-empty strings (`"hello"`) | `""` (empty string) |
+| Objects `{}` | `null` |
+| Arrays `[]` | `undefined` |
+| `true` | `NaN` |
+| Functions | `false` |
+
+> ⚠️ **Best Practice:** Always use strict equality (`===` and `!==`) in conditions to avoid unexpected type coercion!
+
+---
+
+### 🔀 Chapter 08 — Switch Statement
+> *"Switch makes multiple paths crystal clear."* 🔀
+
+| File | What You'll Learn |
+|:-----|:-----------------|
+| `59_Switch.js` | 🎯 Basic `switch` syntax with `case` and `break` |
+| `60_No_break.js` | ⚠️ Fall-through behavior when `break` is omitted |
+| `61_Default.js` | 🛡️ Using `default` for unmatched cases |
+| `62_Real_Time_Example.js` | 🌐 Real-world API status code handling with `switch` |
+| `63_Switch_Group.js` | 📦 Grouping multiple `case` labels together |
+| `64_IQ.js` | 🧠 Interview questions on `switch` behavior |
+| `65_IQ2.js` | 🧩 More tricky `switch` edge cases |
+| `66_IQ3.js` | 🧩 Additional `switch` interview practice |
+| `67_IQ4.js` | 🧩 Advanced `switch` scenarios |
+
+#### 🔀 Switch vs If-Else Decision Tree
+
+```mermaid
+graph TD
+    A[🤔 Need to choose<br/>between paths?] --> B{Same variable<br/>multiple exact values?}
+    B -->|Yes| C[Use switch<br/>Clean & Readable]
+    B -->|No| D{Range or<br/>complex condition?}
+    D -->|Yes| E[Use if-else if<br/>More Flexible]
+    D -->|No| F[Use simple if<br/>Single condition]
+
+    style A fill:#FF6B6B,color:#fff
+    style B fill:#4ECDC4,color:#fff
+    style C fill:#45B7D1,color:#fff
+    style D fill:#96CEB4,color:#fff
+    style E fill:#FFEAA7,color:#333
+    style F fill:#DDA0DD,color:#333
+```
+
+---
+
+### ⌨️ Chapter 09 — User Input
+> *"Programs come alive when they talk to users."* ⌨️
+
+| File | What You'll Learn |
+|:-----|:-----------------|
+| `68_User_Input.js` | 🖱️ Browser `prompt()` for basic user input |
+| `69.Node_readline.js` | 💻 Node.js `readline` module for CLI input |
+| `70_prompt_sync.js` | 🔄 Synchronous prompts with `prompt-sync` |
+
+> ⚠️ **Note:** This chapter covers input methods for learning purposes. In modern web apps, input is typically handled via HTML forms and APIs.
+
+---
+
+### 🔄 Chapter 10 — Loops
+> *"Loops turn repetition into automation."* 🔄
+
+| File | What You'll Learn |
+|:-----|:-----------------|
+| `71_For_Loop.js` | 🎯 Introduction to `for` loop syntax |
+| `72_For_Loop.js` | 🔢 Counter-based `for` loop patterns |
+| `73_For_Loop2.js` | 📊 Practical `for` loop exercises |
+| `74_For_Loop_IQ.js` | 🧠 Interview questions on `for` loops |
+| `75_While_Loop.js` | ⏳ `while` loop — condition-first iteration |
+| `76_Do_While_loop.js` | 🔄 `do...while` — execute at least once |
+| `77_Do_While_loop2.js` | 📈 More `do...while` practice |
+| `78_IQ.js` | 🧩 Loop-based interview questions |
+| `79_IQ.js` | 🧩 Nested loop patterns and logic |
+| `80_IQ.js` | 🧩 Star patterns and number triangles |
+| `81_IQ.js` | 🧩 Advanced loop challenges |
+
+#### 🔄 Loop Selection Guide
+
+```mermaid
+graph TD
+    A[🤔 Need to repeat<br/>something?] --> B{Know the exact<br/>number of times?}
+    B -->|Yes| C[Use for loop<br/>for i = 0; i < n; i++]
+    B -->|No| D{Must run at<br/>least once?}
+    D -->|Yes| E[Use do...while<br/>do while condition]
+    D -->|No| F[Use while loop<br/>while condition]
+
+    style A fill:#FF6B6B,color:#fff
+    style B fill:#4ECDC4,color:#fff
+    style C fill:#45B7D1,color:#fff
+    style D fill:#96CEB4,color:#fff
+    style E fill:#FFEAA7,color:#333
+    style F fill:#DDA0DD,color:#333
+```
+
+---
+
+### 📋 Chapter 11 — Arrays
+> *"Arrays are the backbone of data collection in JavaScript."* 📋
+
+| File | What You'll Learn |
+|:-----|:-----------------|
+| `82_Arrays.js` | 🎯 Creating arrays with mixed data types |
+| `83_Arrays.js` | 📦 Array basics — indexing and `length` |
+| `84_Access_Array.js` | 🔍 Accessing, updating, and traversing elements |
+| `85_Arrays_adding_Remove.js` | ➕➖ `push`, `pop`, `shift`, `unshift` |
+| `86_adding_Remove2.js` | 🛠️ More array manipulation methods |
+| `87_Real_Example.js` | 🌐 Real-world array use cases |
+| `89_Searching.js` | 🔎 `indexOf`, `includes`, `find` |
+| `90_Iterate.js` | 🔄 `for`, `for...of`, `forEach`, `for...in` |
+| `91_Transform_Array.js` | 🔄 `map`, `filter`, `reduce` transformations |
+| `92_Array_Sorting.js` | 📊 `sort`, reverse sorting, and custom comparators |
+| `93_Array_Slicing.js` | ✂️ `slice`, `splice`, and sub-array extraction |
+| `94_Concat_Array.js` | 🔗 `concat` and spread operator for merging |
+| `95_Array_Checking.js` | ✅ `Array.isArray` and type checking |
+
+#### 📋 Array Methods Cheat Sheet
+
+| 🛠️ Method | 📖 Purpose | 📝 Example |
+|:----------|:----------|:----------|
+| `push()` | Add to end | `arr.push(4)` |
+| `pop()` | Remove from end | `arr.pop()` |
+| `shift()` | Remove from start | `arr.shift()` |
+| `unshift()` | Add to start | `arr.unshift(0)` |
+| `indexOf()` | Find index of value | `arr.indexOf("x")` |
+| `includes()` | Check if value exists | `arr.includes("x")` |
+| `slice()` | Copy portion | `arr.slice(1, 3)` |
+| `splice()` | Add/remove elements | `arr.splice(1, 1, "new")` |
+| `map()` | Transform each element | `arr.map(x => x * 2)` |
+| `filter()` | Keep matching elements | `arr.filter(x => x > 5)` |
+| `forEach()` | Iterate with callback | `arr.forEach(console.log)` |
+
+---
+
+### ⚙️ Chapter 12 — Functions
+> *"Functions are the building blocks of reusable code."* ⚙️
+
+| File | What You'll Learn |
+|:-----|:-----------------|
+| `96_Functions.js` | 🎯 Defining and calling basic functions |
+| `97_Type1_Fn_Basic_Functions.js` | 🏗️ Type 1: No parameters, no return value |
+| `98_Type2_Fn_With_Param_No_Return.js` | 📥 Type 2: With parameters, no return value |
+| `99_Type3_Fn_No_param_Return_type.js` | 📤 Type 3: No parameters, with return value |
+| `100_Type4_Fn_With_Param_With_Return.js` | 🔄 Type 4: With parameters and return value |
+| `101_Templte_literal.js` | 🧵 Template literals inside functions |
+| `102_Fn_expression.js` | 📝 Function expressions and anonymous functions |
+| `103_Arrow_Fn.js` | 🏹 Arrow functions — concise and modern syntax |
+| `93_Arrow_Fn.js` | 🚀 More arrow function patterns and shortcuts |
+
+#### ⚙️ Function Types Overview
+
+```mermaid
+graph TD
+    A[🤔 Need a function?] --> B{Needs parameters?}
+    B -->|No| C{Needs to return<br/>a value?}
+    B -->|Yes| D{Needs to return<br/>a value?}
+    C -->|Yes| E[Type 3<br/>No Param + Return]
+    C -->|No| F[Type 1<br/>No Param + No Return]
+    D -->|Yes| G[Type 4<br/>Param + Return]
+    D -->|No| H[Type 2<br/>Param + No Return]
+
+    style A fill:#FF6B6B,color:#fff
+    style B fill:#4ECDC4,color:#fff
+    style C fill:#45B7D1,color:#fff
+    style D fill:#96CEB4,color:#fff
+    style E fill:#FFEAA7,color:#333
+    style F fill:#DDA0DD,color:#333
+    style G fill:#98FB98,color:#333
+    style H fill:#FFB6C1,color:#333
+```
 
 ---
 
@@ -347,6 +669,13 @@ graph TD
 ✅ Literals & Data Types        ✅ Template Literals
 ✅ Arithmetic Operators         ✅ Comparison & Logical Operators
 ✅ Type Coercion & Equality     ✅ String Concatenation
+✅ Ternary & Nullish Operators  ✅ Increment & Decrement
+✅ If / Else / Else If          ✅ Nested Conditions
+✅ Truthy & Falsy Values        ✅ Real-World Conditional Logic
+✅ Switch Statements            ✅ User Input Methods
+✅ For / While / Do-While Loops ✅ Loop Patterns & IQs
+✅ Arrays & Array Methods       ✅ Array Searching & Sorting
+✅ Functions & Scope            ✅ Arrow Functions & Expressions
 ```
 
 ---
@@ -368,6 +697,15 @@ By the end of these chapters, you will:
 - ➕ Apply arithmetic, assignment, and compound operators
 - ⚖️ Compare values with strict (`===`) and loose (`==`) equality
 - 🔗 Combine conditions with logical operators (`&&`, `||`, `!`)
+- 🌿 Write conditional logic with `if`, `else if`, and `else`
+- 🏗️ Use nested `if` statements for complex decision trees
+- 🧠 Leverage truthy and falsy values for concise condition checks
+- 🔀 Use `switch` statements for multi-way branching
+- ⌨️ Accept user input via `prompt`, `readline`, and `prompt-sync`
+- 🔄 Automate repetition with `for`, `while`, and `do...while` loops
+- 📋 Store and manipulate collections with arrays and array methods
+- ⚙️ Write reusable code with functions, parameters, and return values
+- 🏹 Simplify syntax with arrow functions and function expressions
 
 ---
 
